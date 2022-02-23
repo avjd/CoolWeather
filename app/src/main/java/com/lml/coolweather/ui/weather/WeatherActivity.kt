@@ -117,10 +117,10 @@ class WeatherActivity : AppCompatActivity() {
             temperatureInfo.text = tempText
             forecastLayout.addView(view)
         }
-        coldRiskText.text = "lifeIndex.coldRisk[0].desc"
-        dressingText.text = "lifeIndex.dressing[0].desc"
-        ultravioletText.text = "lifeIndex.ultraviolet[0].desc"
-        carWashingText.text = "lifeIndex.carWashing[0].desc"
+        coldRiskText.text = "易发"
+        dressingText.text = "多穿"
+        ultravioletText.text = "良好"
+        carWashingText.text = "良好"
         weatherLayout.visibility = View.VISIBLE
     }
 }
